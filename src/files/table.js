@@ -79,7 +79,7 @@ class RawTableFile extends BaseFile {
         onClick={this.handleItemClick}
         onDoubleClick={this.handleItemDoubleClick}
       >
-        <td className="name-file">
+        <td className="name">
           <div style={{ paddingLeft: (depth * 16) + 'px' }}>
             {name}
           </div>
