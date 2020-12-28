@@ -79,9 +79,9 @@ class RawTableFile extends BaseFile {
         onClick={this.handleItemClick}
         onDoubleClick={this.handleItemDoubleClick}
       >
-        <td className="name">
+        <td className="name-file">
           <div style={{ paddingLeft: (depth * 16) + 'px' }}>
-            {draggable}
+            {name}
           </div>
         </td>
         <td className="size">{fileSize(size)}</td>
@@ -101,7 +101,7 @@ class RawTableFile extends BaseFile {
   BaseFileConnectors.targetSource,
   BaseFileConnectors.targetCollect
 )
-class TableFile extends RawTableFile {}
+class TableFile extends RawTableFile { }
 
 export default TableFile
 export { RawTableFile }
