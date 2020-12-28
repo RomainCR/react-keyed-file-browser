@@ -35,9 +35,9 @@ class RawTableHeader extends React.Component {
           selected: this.props.isSelected,
         })}
       >
-        <th>File</th>
-        <th className="size">Size</th>
-        <th className="modified">Last Modified</th>
+        <th>Fichier</th>
+        <th className="size">Taille</th>
+        <th className="modified">Dernière modification</th>
       </tr>
     )
 
@@ -58,7 +58,7 @@ class RawTableHeader extends React.Component {
   BaseFileConnectors.targetSource,
   BaseFileConnectors.targetCollect
 )
-class TableHeader extends RawTableHeader {}
+class TableHeader extends RawTableHeader { }
 
 export default TableHeader
 export { RawTableHeader }
