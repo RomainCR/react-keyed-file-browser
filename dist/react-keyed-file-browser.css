@@ -1,8 +1,10 @@
 div.rendered-react-keyed-file-browser {
   min-width: 800px; }
-  div.rendered-react-keyed-file-browser .name-file {
+  div.rendered-react-keyed-file-browser .name {
     max-width: 500px;
     overflow: hidden; }
+    div.rendered-react-keyed-file-browser .name a {
+      display: flex; }
   div.rendered-react-keyed-file-browser div.action-bar {
     margin-bottom: 0.5rem;
     flex-wrap: wrap;
