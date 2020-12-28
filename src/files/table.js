@@ -54,7 +54,7 @@ class RawTableFile extends BaseFile {
         // onClick={this.handleFileClick}
         >
           {icon}
-          {this.getName()}
+          {this.getName().length > 60 ? this.getName().substring(0, 60) : this.getName()}
         </a>
       )
     }
