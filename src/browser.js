@@ -771,7 +771,7 @@ class RawFileBrowser extends React.Component {
         renderedFiles = (
           <table cellSpacing="0" cellPadding="0">
             {header}
-            <tbody>
+            <tbody className="tree-body">
               {contents}
             </tbody>
           </table>

@@ -3,11 +3,16 @@ $theme-colour-text: #337ab7 !default
 
 div.rendered-react-keyed-file-browser
   min-width: 800px
-  .name
+  font-family: time
+  .files
+    max-height: calc(100vh - 114px)
+    overflow: auto
+  .name-file
     max-width: 500px
     overflow: hidden
     a
       display: flex
+      font-style: italic
   div.action-bar
     margin-bottom: $main-padding
     flex-wrap: wrap
